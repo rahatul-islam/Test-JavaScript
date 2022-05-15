@@ -546,3 +546,11 @@
 
 
 
+const number = [20, 30, 2, 400, 58, 21];
+// let value = number.reverse();
+// let value = number.splice(1,3);
+// let value = number.sort(); 
+
+
+
+console.log(value);
