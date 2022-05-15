@@ -512,34 +512,37 @@
 
 
 
-const person ={
-    name: "Rahatul",
-    age:23,
-    parents:{
-        father:"Mostafizur Rahman",
-        mother: "Rahena"
-    },
-    friends: [
-        {name: "Rifat", age: 26},
-        {name:"Bikash", age: 23},
-        {name: "fg", age: 26},
-        {name: "Rsdfifat", age: 26},
-        {name: "asdf", age: 26},
-        {name: "fgz", age: 26},
-        {name: "Ricvcfat", age: 26},
-        {name: "zxcv", age: 26},
-        {name: "Rifzcvaat", age: 26},
+// const person ={
+//     name: "Rahatul",
+//     age:23,
+//     parents:{
+//         father:"Mostafizur Rahman",
+//         mother: "Rahena"
+//     },
+//     friends: [
+//         {name: "Rifat", age: 26},
+//         {name:"Bikash", age: 23},
+//         {name: "fg", age: 26},
+//         {name: "Rsdfifat", age: 26},
+//         {name: "asdf", age: 26},
+//         {name: "fgz", age: 26},
+//         {name: "Ricvcfat", age: 26},
+//         {name: "zxcv", age: 26},
+//         {name: "Rifzcvaat", age: 26},
 
-    ],
-    likes:["cricket", "video gaming"]
-}
+//     ],
+//     likes:["cricket", "video gaming"]
+// }
 
 //My name is Rahatul.
 //I am 23 years old.
 //My fathers name is Mostafizur Rahman.
 //My mothers name is Rehana begum.
-console.log(`My name is ${person.name}.\nI am ${person.age} years old.\nMy fathers name is ${person.parents.father}.\nMy mothers name is ${person.parents.mother}.\n`);
+// console.log(`My name is ${person.name}.\nI am ${person.age} years old.\nMy fathers name is ${person.parents.father}.\nMy mothers name is ${person.parents.mother}.\n`);
 
-person.friends.map((friend)=>{    
-    console.log(`My friends name is ${friend.name}`);
-})
+// person.friends.map((friend)=>{    
+//     console.log(`My friends name is ${friend.name}`);
+// })
+
+
+
