@@ -609,3 +609,47 @@
 
 // console.log(Low)
 
+
+
+// let x = "";
+// const myObj = {
+//   name: "John",
+//   age: 30,
+//   cars: [
+//     {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+//     {name:"BMW", models:["320", "X3", "X5"]},
+//     {name:"Fiat", models:["500", "Panda"]}
+//   ]
+// }
+
+// for (let i in myObj.cars) {
+//   x += myObj.cars[i].name + " ,";
+//   for (let j in myObj.cars[i].models) {
+//     x += myObj.cars[i].models[j] + ", ";
+//   }
+// }
+
+// console.log(x);
+
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     id: 5566,
+//     fullName : function() {
+//       return this.firstName + " " + this.lastName;
+//     }
+//   }
+
+//   console.log(person.fullName());
+
+
+
+
+
+
+
+
+
+
+
+
