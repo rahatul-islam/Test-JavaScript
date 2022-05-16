@@ -552,5 +552,19 @@
 // // let value = number.sort(); 
 
 
-
 // console.log(value);
+
+
+
+
+const num = [];
+let sum = 0;
+for(let i = 0; i < 100; i++){
+    num.push(i);
+    sum += i;
+    
+}
+console.log(sum);
+
+
+  
