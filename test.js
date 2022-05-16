@@ -547,24 +547,65 @@
 
 
 // const number = [20, 30, 2, 400, 58, 21];
-// // let value = number.reverse();
-// // let value = number.splice(1,3);
-// // let value = number.sort(); 
+// let value = number.reverse();
+// let value = number.splice(2);
+// let value = number.sort(); 
+// let value = number.slice(5);
+// let  value = number.pop();
+// let  value = number.push(254);
+
+// number sorting
+// number.sort(function(a,b){
+//     return a-b;
+// });
+
+// console.log(number);
 
 
-// console.log(value);
 
-
-
-
-const num = [];
-let sum = 0;
-for(let i = 0; i < 100; i++){
-    num.push(i);
-    sum += i;
+// const num = [];
+// let sum = 0;
+// for(let i = 0; i < 100; i++){
+//     num.push(i);
+//     sum += i;
     
-}
-console.log(sum);
+// }
+// console.log(sum);
+
+ 
+
+// console.log(Math.min(12,20,50,30,1000,10,1));
 
 
+
+
+
+// 1
+// let rasel={name:"bikash",expart:"maiya potaite",gf:"ostad"}
+// let arr = Object.values(rasel)
+// console.log(arr);
+
+// 1.1
+// let newarray=[];
+// newarray.push(Object.values(rasel));
+// console.log(newarray);
   
+
+
+// let scores = [100, 36, 65, 995, 980, 910];
+// let Low = highestScore(scores);
+
+
+// function highestScore(scores) {
+//     let min = scores[0];
+//     for (let i = 1; i < scores.length; i++) {
+//         if (min > scores[i]) {
+//             min = scores[i];
+//         }
+//     }
+
+//     return min;
+// }
+
+// console.log(Low)
+
