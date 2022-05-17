@@ -457,7 +457,7 @@
 //     console.log(i,factorial);
 // }
 
- 
+
 
 // function getArraySum(numbers){
 //     var sum = 0;
@@ -568,11 +568,11 @@
 // for(let i = 0; i < 100; i++){
 //     num.push(i);
 //     sum += i;
-    
+
 // }
 // console.log(sum);
 
- 
+
 
 // console.log(Math.min(12,20,50,30,1000,10,1));
 
@@ -589,7 +589,7 @@
 // let newarray=[];
 // newarray.push(Object.values(rasel));
 // console.log(newarray);
-  
+
 
 
 // let scores = [100, 36, 65, 995, 980, 910];
@@ -646,10 +646,73 @@
 
 
 
+// const photos = ["01.png", "2.jpg", "3.jpg"];
+// const imgTag = document.querySelector("img");
+
+// let count = 0;
+
+// function next() {
+//     count++;
+//     if (count > photos.length) {
+//         count = 0;
+//         imgTag.src = photos[count];
+//     }else{
+//         imgTag.src = photos[count];
+//     }
+
+// }
+
+// function prev() {
+
+// }
+
+
+
+// ARROW function***********************
+
+// const students = [{
+//         id: 101,
+//         name: 'Rahatul',
+//         gpa: 3.65
+//     },
+//     {
+//         id: 102,
+//         name: 'Rahat',
+//         gpa: 2.89
+//     },
+//     {
+//         id: 103,
+//         name: 'Rabiul',
+//         gpa: 3.80
+//     },
+//     {
+//         id: 104,
+//         name: 'Bikash',
+//         gpa: 3.75
+//     },
+//     {
+//         id: 105,
+//         name: 'Kodu',
+//         gpa: 2.3
+//     },
+//     {
+//         id: 106,
+//         name: 'Pain',
+//         gpa: 2.99
+//     },
+// ];
+
+// function studentsNames() {
+//     return students.filter(function (x) {
+//         return x.gpa > 3
+//     }).map(function(y){
+//         return y.name
+//     });
+// }
+
+// const studentsNames2 = () => students.filter((x) => x.gpa > 3).map((y) => y.name);
 
 
 
 
-
-
-
+// console.log(studentsNames2());
