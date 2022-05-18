@@ -712,7 +712,132 @@
 
 // const studentsNames2 = () => students.filter((x) => x.gpa > 3).map((y) => y.name);
 
-
-
-
 // console.log(studentsNames2());
+
+
+
+// pronise****************
+
+// const taskOne = () => {
+//     return new Promise((resolve, reject) => {
+//         resolve("Tasi 1 is completed");
+//     });
+// };
+
+// const taskTwo = () => {
+//     return new Promise((resolve, reject) => {
+//         resolve("Tasi 2 is completed");
+//     });
+// };
+
+// const taskThree = () => {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Tasi 3 is completed");
+//         }, 2000);
+//     });
+// };
+
+
+// const taskFour = () => {
+//     return new Promise((resolve, reject) => {
+//         resolve("Tasi 4 is completed");
+//     });
+// };
+
+// taskOne()
+// .then((res)=> console.log(res))
+// .then(taskTwo)
+// .then((res)=> console.log(res))
+// .then(taskThree)
+// .then((res) => console.log(res))
+// .then(taskFour)
+// .then((res)=> console.log(res))
+// .catch((err)=> console.log(err))
+
+
+
+
+
+
+// API Calling===========1.XMLHttpRequest===
+// const makeRequest = (method, url, data) => {
+//     const xhr = new XMLHttpRequest();
+//     xhr.open(method, url);
+
+//     xhr.setRequestHeader('Content-type', 'application/json')
+
+//     xhr.onload = () => {
+//         let data = xhr.response;
+//         console.log(JSON.parse(data));
+//     }
+//     xhr.onerror = () => {
+//         console.log('error is here');
+//     }
+//     xhr.send(JSON.stringify(data));
+
+// }
+
+// const getData = () => {
+//     makeRequest('GET',
+//         'https://jsonplaceholder.typicode.com/posts');
+// }
+
+// const sendData = () => {
+//     makeRequest('POST',
+//         'https://jsonplaceholder.typicode.com/posts', {
+//             title: 'foo',
+//             body: 'bar',
+//             userId: 1
+//         });
+// }
+
+// const updateData = () => {
+//     makeRequest('PUT',
+//         'https://jsonplaceholder.typicode.com/posts/1', {
+//             id: 1,
+//             title: 'foo',
+//             body: 'bar',
+//             userId: 1,
+//         });
+// }
+
+// const updateSingleData =()=>{
+//     makeRequest('PATCH','https://jsonplaceholder.typicode.com/posts/1',{
+//         title: 'This is changed',
+//     });
+// }
+
+// const deleteData=()=>{
+//     makeRequest('DELETE','https://jsonplaceholder.typicode.com/posts/1');
+// }
+
+// deleteData();
+
+
+
+
+// API Calling===========02.Fetch===
+// fetch('https://jsonplaceholder.typicode.com/posts',{
+//     method: 'POST',
+//     headers: {
+//         'Content-type':'application/json'
+//     },
+//     body: JSON.stringify({
+//         title: 'foo',
+//         body: 'bar',
+//         userId: 1
+//     })
+// })
+// .then((res)=> {
+//     if(!res.ok){
+//         const message =`Error: ${res.status}`;
+//         throw new Error(message);
+//     }
+//     return res.json();
+// })
+// .then((res)=>console.log(res));
+
+
+
+// API Calling===========02.Axios===
