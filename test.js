@@ -646,27 +646,6 @@
 
 
 
-// const photos = ["01.png", "2.jpg", "3.jpg"];
-// const imgTag = document.querySelector("img");
-
-// let count = 0;
-
-// function next() {
-//     count++;
-//     if (count > photos.length) {
-//         count = 0;
-//         imgTag.src = photos[count];
-//     }else{
-//         imgTag.src = photos[count];
-//     }
-
-// }
-
-// function prev() {
-
-// }
-
-
 
 // ARROW function***********************
 
@@ -716,7 +695,7 @@
 
 
 
-// pronise****************
+// promise****************
 
 // const taskOne = () => {
 //     return new Promise((resolve, reject) => {
@@ -841,3 +820,7 @@
 
 
 // API Calling===========03.Axios===
+
+
+
+
