@@ -595,7 +595,6 @@
 // let scores = [100, 36, 65, 995, 980, 910];
 // let Low = highestScore(scores);
 
-
 // function highestScore(scores) {
 //     let min = scores[0];
 //     for (let i = 1; i < scores.length; i++) {
@@ -824,3 +823,45 @@
 
 
 
+// const searchInput = document.querySelector(".search");
+// const display = document.querySelector(".result");
+// const thanks = document.querySelector(".thanks");
+
+// function show() {
+//     display.innerHTML = this.value;
+//     let self= this;
+//     setTimeout(function () {
+//         thanks.innerHTML = `You Have Type: ${self.value}`
+//     }, 3000);
+// }
+
+// searchInput.addEventListener("keyup", show);
+
+
+
+
+// ===========ES6=============
+
+
+// ===========Spread Mode================
+
+//  let poorCountry= ['bngladesh', 'Srilanka'];
+//  let  richCountry=[...poorCountry,'China','Japan','America'];
+
+//  console.log(richCountry);
+
+
+ // ===========Rest Perameter========= =======
+
+//   function calculaet(...numbers){
+//       let sum=0;
+//       for(let i of numbers){
+//           sum=sum+i;
+//       }
+//       console.log(sum);
+//   }
+
+//   calculaet(1,2,4,63);
+
+
+ 
